@@ -18,23 +18,23 @@ td {
 #topL,
 #midL,
 #botL {
-  border-right: 3px solid black;
+  border-right: 6px solid black;
 }
 
 #topR,
 #midR,
 #botR {
-  border-left: 3px solid black;
+  border-left: 6px solid black;
 }
 
 #topL,
 #topM,
 #topR {
-  border-bottom: 3px solid black;
+  border-bottom: 6px solid black;
 }
 
 #botL,
 #botM,
 #botR {
-  border-top: 3px solid black;
+  border-top: 6px solid black;
 }
