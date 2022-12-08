@@ -1,7 +1,40 @@
-h1 {
-    color: green;
+* {
+  box-sizing: border-box;
 }
 
 body {
-    background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+td {
+  height: 250px;
+  width: 250px;
+  text-align: center;
+}
+
+#topL,
+#midL,
+#botL {
+  border-right: 3px solid black;
+}
+
+#topR,
+#midR,
+#botR {
+  border-left: 3px solid black;
+}
+
+#topL,
+#topM,
+#topR {
+  border-bottom: 3px solid black;
+}
+
+#botL,
+#botM,
+#botR {
+  border-top: 3px solid black;
 }
