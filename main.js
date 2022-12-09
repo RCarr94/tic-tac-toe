@@ -21,7 +21,6 @@ const winConditions = [
 
 // 2) Define required variables used to track the state of the game:
 
-
 // 	2.1) Use a board array to represent the squares.
 let board;
 
@@ -33,6 +32,7 @@ let winner;
 
 // 3) Store elements on the page that will be accessed in code more than once in variables to make code more concise, readable and performant:
 // 	3.1) Store the 9 elements that represent the squares on the page.
+const squares = document.querySelectorAll("td");
 
 // 4) Upon loading the app should:
 // 	4.1) Initialize the state variables:
