@@ -15,26 +15,18 @@ td {
   text-align: center;
 }
 
-#topL,
-#midL,
-#botL {
+.border-right {
   border-right: 6px solid black;
 }
 
-#topR,
-#midR,
-#botR {
+.border-left {
   border-left: 6px solid black;
 }
 
-#topL,
-#topM,
-#topR {
+.border-bottom {
   border-bottom: 6px solid black;
 }
 
-#botL,
-#botM,
-#botR {
+.border-top {
   border-top: 6px solid black;
 }
